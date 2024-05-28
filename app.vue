@@ -4,9 +4,13 @@
   </div>
 </template>
 
-<script lang="ts" setup>
-
+<script setup lang="ts">
+useSeoMeta({
+  title: 'Artefakt 42',
+  ogTitle: 'Artefakt 42',
+})
 </script>
+
 
 <style lang="css" scoped>
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
