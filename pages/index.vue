@@ -114,6 +114,8 @@ onMounted(() => {
   text-align: center;
   letter-spacing: 0.15em;
   animation: blink-caret 0.75s step-end infinite;
+  white-space: normal;
+  word-wrap: break-word;
 }
 
 @keyframes blink-caret {
